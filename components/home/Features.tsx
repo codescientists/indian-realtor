@@ -39,19 +39,19 @@ const Features = () => {~1
       <div className="grid grid-cols-4 gap-1 bg-gray-200 p-1">
         {properties.map((property, index) => (
           <div key={index}>
-              <CardContent
+              <Card
                 className={cn(
                   "p-4 text-center shadow-none rounded-none duration-300"
                 )}
               >
-                <CardContent className="flex flex-col items-start p-4">
+                <CardContent className="flex flex-col items-start bg-white p-4">
                   <img
                     src={property.image}
                     alt={property.image}
                     className="mx-auto h-48 w-48 object-contain"
                   />
                 </CardContent>
-              </CardContent>
+              </Card>
           </div>
         ))}
       </div>
