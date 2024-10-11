@@ -15,13 +15,13 @@ const properties = [
     image: "/f-4.png",
   },
   {
-    image: "/f-1.png",
+    image: "/f-5.png",
   },
   {
-    image: "/f-2.png",
+    image: "/f-6.png",
   },
   {
-    image: "/f-3.png",
+    image: "/f-7.png",
   },
   {
     image: "/f-4.png",
@@ -48,7 +48,7 @@ const Features = () => {~1
                   <img
                     src={property.image}
                     alt={property.image}
-                    className="mx-auto h-48 w-48 object-contain"
+                    className="mx-auto h-32 w-32 object-contain"
                   />
                 </CardContent>
               </Card>

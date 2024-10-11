@@ -8,11 +8,11 @@ export default function Layout({
     children: React.ReactNode;
   }>) {
     return (
-      <>
+      <section className="relative">
         <Header />
           {children}
-        <Footer />
-      </>
+        {/* <Footer /> */}
+      </section>
     );
   }
   

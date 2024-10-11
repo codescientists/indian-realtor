@@ -54,7 +54,7 @@ const HomeHero = () => {
   }
 
   return (
-    <section className="flex items-center justify-center bg-cover bg-start bg h-[35rem] py-20" style={{ backgroundImage: "url('/home-hero.jpeg')" }}>
+    <section className="flex items-center justify-center bg-cover bg-start bg h-[38rem] py-20" style={{ backgroundImage: "url('/home-hero.jpeg')" }}>
       
 
 
