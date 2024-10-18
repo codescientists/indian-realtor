@@ -9,7 +9,7 @@ export default function Layout({
   }>) {
     return (
       <section className="relative">
-        <Header />
+        {/* <Header /> */}
           {children}
         {/* <Footer /> */}
       </section>

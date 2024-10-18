@@ -4,7 +4,13 @@ import HomeHero from "@/components/home/HomeHero";
 import { useEffect, useState } from "react";
 
 // Building names for the welcome screen
-const buildingNames = ["The Empire", "Skyline Tower", "Crestview Apartments", "Sunset Villas", "Indian Realtors"];
+const buildingNames = [
+  "The Empire",
+  "Skyline Tower",
+  "Crestview Apartments",
+  "Sunset Villas",
+  "Indian Realtors",
+];
 
 const Home = () => {
   const [showWelcomeScreen, setShowWelcomeScreen] = useState(true);
@@ -41,8 +47,8 @@ const Home = () => {
     <section>
       {showWelcomeScreen ? (
         <div
-          className={`absolute left-0 top-0 w-screen h-screen flex items-center justify-center bg-white transition-all duration-1000 ${
-            curtainAnimation ? "rounded-b-full h-0" : "h-full"
+          className={`absolute left-0 top-0 w-screen h-screen flex items-center justify-center bg-white transition-all duration-1000 ease-in-out ${
+            curtainAnimation ? "-translate-y-full" : "h-full"
           }`}
         >
           <h1
