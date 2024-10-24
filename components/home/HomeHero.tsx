@@ -72,8 +72,8 @@ const HomeHero = () => {
           </div>
 
           <div className="hidden lg:flex flex-col items-end text-end w-[15rem] absolute right-20 bottom-10 text-black">
-            <h1 className="text-xl tracking-wide font-bold text-transparent bg-clip-text bg-gradient-to-b from-blue-500 via-cyan-500  to-blue-900">Our Commitment to <br />Your Investment</h1>
-            <p className="text-xs my-2 line-clamp-4">At Indian Realtors, we ensure that every client’s investment of time and money is met with the highest level of satisfaction. We believe in proactively transforming our business to deliver maximum efficiency and value.</p>
+            <h1 className="text-xl tracking-wide font-bold text-transparent bg-clip-text bg-gradient-to-b from-blue-500 via-cyan-500  to-blue-900">Who we are</h1>
+            <p className="text-xs my-2 line-clamp-4">At Indian Realtors we will assure the amount and efforts taken by our each client would be given the fullest satisfaction on their investment money and time effectively. <br /> We religiously Believe "Efficiencies will come from proactively transforming how we do business."</p>
           </div>
 
           <div className="hidden lg:flex items-center text-start w-[20rem] absolute left-20 bottom-10 text-black space-x-4">
